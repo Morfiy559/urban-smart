@@ -28,8 +28,6 @@ const Main = ({login, pass,valid, setFormLogin, setFormPass,setValid}) => {
                 <label>Pass: <input onChange={setPass} type="password" value={pass}/></label>
                 <button disabled={!valid}>Войти</button>
             </form>
-            <div>Login: {login}</div>
-            <div>Pass: {pass}</div>
         </>
 
     )
