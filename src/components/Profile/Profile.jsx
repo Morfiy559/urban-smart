@@ -4,7 +4,7 @@ import {connect} from "react-redux";
 const Profile = ({login}) => {
     return (
         <div>
-            <h1>Logitgin: {login}</h1>
+            <h1>Login: {login}</h1>
         </div>
     )
 }
